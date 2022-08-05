@@ -7,7 +7,8 @@ plugins {
 apply(from = "../repositories.gradle.kts")
 
 dependencies {
-    val androidPluginVersion = rootProject.extra["androidPluginVersion"].toString()
+    "androidPluginVersion"("7.2.2")
+    "androidPluginVersion"("7.2.2")
     val kotlinVersion = rootProject.extra["kotlinVersion"].toString()
     val hutoolVersion = rootProject.extra["hutoolVersion"].toString()
     implementation("com.android.tools.build:gradle:$androidPluginVersion")
