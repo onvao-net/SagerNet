@@ -22,7 +22,7 @@ private val Project.android
     )
 private val Project.androidApp get() = android as ApplicationExtension
 
-private val javaVersion = JavaVersion.VERSION_1_8
+private val javaVersion = JavaVersion.VERSION_11
 private lateinit var metadata: Properties
 private lateinit var localProperties: Properties
 private lateinit var flavor: String
